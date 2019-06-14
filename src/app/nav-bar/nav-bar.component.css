@@ -1,6 +1,7 @@
 .navbar-light .navbar-brand {
   color: white;
   font-family: helvetica;
+  font-weight: 530;
 }
 
 .bg-dark {
@@ -18,4 +19,25 @@ img {
 
 .form-control {
   background-color: #000000!important;
+  color: #FFFFFF!important;
+  border: none;
+  font-family: helvetica;
+  max-width: 120px;
 }
+
+.btn-outline-success {
+  color: #FFFFFF!important;
+  border: none;
+}
+
+.btn-outline-success:hover {
+  background-color: black;
+}
+
+.form-control::placeholder {
+  color: #FFFFFF!important;
+}
+
+/* .form-control mr-sm-2 {
+  color: #FFFFFF!important;
+} */
