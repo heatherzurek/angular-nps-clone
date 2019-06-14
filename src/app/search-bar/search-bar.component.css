@@ -1,4 +1,20 @@
 body {
-  background-color: #000000!important;
+  background-color: #000000b5!important;
   color: #FFFFFF;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-secondary.dropdown-toggle {
+  background-color: #FFFFFF!important;
+  width: 90%;
+  margin: 10px;
+  color: black;
+  font-weight: lighter;
+  font-size: 14px;
 }
