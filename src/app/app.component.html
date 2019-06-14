@@ -1,6 +1,7 @@
 
 <app-nav-bar (sendKeg)="navBar($event)"></app-nav-bar>
 
-<app-main (sendKeg)="main($event)"></app-main>
+<app-main (sendKeg)="main($event)"><app-search-bar (sendKeg)="searchBar($event)"></app-search-bar>
+</app-main>
 
 <app-search-bar (sendKeg)="searchBar($event)"></app-search-bar>
