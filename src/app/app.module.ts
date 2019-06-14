@@ -8,6 +8,7 @@ import { MainComponent } from './main/main.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { FeaturedArticlesComponent } from './featured-articles/featured-articles.component';
+import { ArticlesComponent } from './articles/articles.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { FeaturedArticlesComponent } from './featured-articles/featured-articles
     MainComponent,
     SearchBarComponent,
     MainContentComponent,
-    FeaturedArticlesComponent
+    FeaturedArticlesComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule

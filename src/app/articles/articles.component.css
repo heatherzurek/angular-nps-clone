@@ -3,16 +3,16 @@
 }
 
 .card {
-  margin: 15px;
+  margin: 5px;
   border: none;
 }
 
 .grid {
   display: grid;
   gap: 1%;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 3fr));
   justify-content: center;
-  grid-auto-rows: 500px;
+  grid-auto-rows: 300px;
 }
 
 a {
