@@ -1,0 +1,12 @@
+.navbar-light .navbar-brand {
+  color: white;
+  font-family: helvetica;
+}
+
+.bg-dark {
+  background-color: #000000!important;
+}
+
+.navbar {
+  color: #FFFFFF!important;
+}
