@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainComponent } from './main/main.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
+import { MainContentComponent } from './main-content/main-content.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     AppComponent,
     NavBarComponent,
     MainComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    MainContentComponent
   ],
   imports: [
     BrowserModule
