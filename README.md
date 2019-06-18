@@ -1,6 +1,6 @@
 # _National Park Service Clone_
 
-## _This is an application that clones the national parks website_
+## _This is an application that clones the national parks website using Angular and typescript._
 
 #### By _**Heather Zurek**_
 
@@ -8,7 +8,7 @@
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| xx | "" | "” |
+| xx | "" | "" |
 | xx | "" | "" |
 | xx | "" | "" |
 
