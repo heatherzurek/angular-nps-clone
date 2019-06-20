@@ -8,7 +8,7 @@
 
 .searchBar {
   width: 100%;
-  margin-top: 19%;
+  margin-top: 10%;
   background-color: #000000b5!important;
   color: #FFFFFF;
   text-align: center;
@@ -16,11 +16,15 @@
   padding-top: 20px;
 }
 
-.container {
+.mainBox {
 background-color: #000000b5!important;
   color: #FFFFFF;
+  width: 450px;
+  height: 250px;
+  position: relative;
+  top: 100px;
+  left: 50%;
   padding: 15px;
-  max-width: 500px;
 }
 
 a {
@@ -43,4 +47,9 @@ a {
   background-color: #4b5e26;
   color: white;
   font-weight: bold;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
 }
