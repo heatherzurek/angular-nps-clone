@@ -6,11 +6,9 @@
 
 ## Description
 
-| Behavior | Input | Output |
-| ------------- |:-------------:| -----:|
-| xx | "" | "" |
-| xx | "" | "" |
-| xx | "" | "" |
+_This site allows you to see a list of the States and their co-ordinating national parks._
+
+![GitHub Logo](./screenshot.png")
 
 ## Development server
 
