@@ -6,13 +6,15 @@
 
 ## Description
 
-_This site allows you to see a list of the States and their co-ordinating national parks._
-
-![GitHub Logo](/screenshot.png")
+_This site allows you to see a list of the States and their co-ordinating national parks, in the future you will be able to route to different pages in additional to the state and national parks page to learn more about the national park._
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Deployed Site
+
+[NPS CLONE](https://npsclone.firebaseapp.com/)
 
 ## Known Bugs
 
