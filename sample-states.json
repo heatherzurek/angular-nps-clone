@@ -1,0 +1,53 @@
+{ "states": [{
+  "name": " Alabama",
+  "id": "0"
+  }, {
+  "name": " Alaska",
+  "id": "1"
+    }, {
+  "name": " Arizona",
+  "id": "2"
+  }, {
+  "name": " California",
+  "id": "3"
+  }, {
+  "name": " Colorado",
+  "id": "4"
+  }, {
+  "name": " Connecticut",
+  "id": "5"
+  }, {
+  "name": " Delaware",
+  "id": "6"
+  }, {
+  "name": " Florida",
+  "id": "7"
+  }, {
+  "name": " Georgia",
+  "id": "8"
+  }, {
+  "name": " Hawaii",
+  "id": "9"
+  }, {
+  "name": " Idaho",
+  "id": "10"
+  }, {
+  "name": " Illinois",
+  "id": "11"
+  }, {
+  "name": " Indiana",
+  "id": "12"
+  }, {
+  "name": " Iowa",
+  "id": "13"
+  }, {
+  "name": " Kansas",
+  "id": "14"
+  }, {
+  "name": " Kentucky",
+  "id": "15"
+  }, {
+  "name": " Louisiana",
+  "id": "16"
+    }]
+  }

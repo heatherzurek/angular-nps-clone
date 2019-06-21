@@ -4,15 +4,16 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
+import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainComponent } from './main/main.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
-import { MainContentComponent } from './main-content/main-content.component';
 import { FeaturedArticlesComponent } from './featured-articles/featured-articles.component';
 import { ArticlesComponent } from './articles/articles.component';
 import { SiteLinksComponent } from './site-links/site-links.component';
+import { VisitComponent } from './visit/visit.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -27,13 +28,14 @@ export const firebaseConfig = {
     NavBarComponent,
     MainComponent,
     SearchBarComponent,
-    MainContentComponent,
     FeaturedArticlesComponent,
     ArticlesComponent,
-    SiteLinksComponent
+    SiteLinksComponent,
+    VisitComponent
   ],
   imports: [
     BrowserModule,
+    routing,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
