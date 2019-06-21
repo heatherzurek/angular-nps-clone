@@ -4,29 +4,21 @@ import { Router } from '@angular/router';
 import { StateService } from '../state.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 
-
 @Component({
   selector: 'app-visit',
   templateUrl: './visit.component.html',
-  styleUrls: ['./visit.component.css']
+  styleUrls: ['./visit.component.css'],
+  providers: [StateService]
 })
 export class VisitComponent implements OnInit {
   states: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
 
-  constructor(private router: Router){}
+  constructor(private router: Router, private stateService: StateService){}
 
   ngOnInit(){
-    this.states = this.statesService.getStates();
+    this.states = this.stateService.getStates();
   }
-
-  // states: State[] = [
-  //   new State("Alabama", 1),
-  //   new State("Alaska", 2),
-  //   new State("Arizona", 3),
-  //   new State("Arkansas", 4),
-  //   new State("California", 5),
-  //   new State("Colorado", 6),
-  // ];
 
   goToDetailPage(clickedState) {
     this.router.navigate(['states', clickedState.$key]);
