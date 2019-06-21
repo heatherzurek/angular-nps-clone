@@ -9,6 +9,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { FeaturedArticlesComponent } from './featured-articles/featured-articles.component';
 import { ArticlesComponent } from './articles/articles.component';
+import { SiteLinksComponent } from './site-links/site-links.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ArticlesComponent } from './articles/articles.component';
     SearchBarComponent,
     MainContentComponent,
     FeaturedArticlesComponent,
-    ArticlesComponent
+    ArticlesComponent,
+    SiteLinksComponent
   ],
   imports: [
     BrowserModule

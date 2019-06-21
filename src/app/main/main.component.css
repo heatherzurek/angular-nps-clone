@@ -8,8 +8,8 @@
 
 .searchBar {
   width: 100%;
-  margin-top: 10%;
-  background-color: #000000b5!important;
+  margin-top: 15%;
+  background-color: #1010108c!important;
   color: #FFFFFF;
   text-align: center;
   padding-bottom: 20px;
@@ -17,13 +17,13 @@
 }
 
 .mainBox {
-background-color: #000000b5!important;
+background-color: #1010108c!important;
   color: #FFFFFF;
   width: 450px;
   height: 250px;
   position: relative;
   top: 100px;
-  left: 50%;
+  left: 55%;
   padding: 15px;
 }
 
@@ -31,6 +31,11 @@ a {
   text-decoration: underline;
   color: white;
   font-weight: bold;
+  /* font-size: 13px; */
+}
+
+.seeAll {
+  font-size: 12px;
 }
 
 .btn-secondary.dropdown-toggle {
