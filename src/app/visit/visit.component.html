@@ -3,7 +3,7 @@
 
 <div *ngFor="let state of states | async"  class="panel panel-default">
   <div class="panel-body">
-    <h3 (click)="goToDetailPage(state)"><em>{{state.name}}</em></h3>
+    <h3 (click)="goToDetailPage(state)"><em><strong>{{state.name}}</strong></em> {{state.park}}</h3>
   </div>
 </div>
 
