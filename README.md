@@ -8,7 +8,7 @@
 
 _This site allows you to see a list of the States and their co-ordinating national parks._
 
-![GitHub Logo](./screenshot.png")
+![GitHub Logo](/screenshot.png")
 
 ## Development server
 
