@@ -1,13 +1,15 @@
 import { Injectable } from '@angular/core';
 import { State } from './state.model';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class StateService {
+  albums: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+  }
 
-  // getStates() {
-  //   return STATES;
-  // }
-
+  getStates(){
+  return this.albums;
+}
 }
