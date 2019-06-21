@@ -1,3 +1,10 @@
-<p>
-  visit works!
-</p>
+<!-- <div *ngFor="let state of states">
+    <h3><em>{{state.name}}</em> {{state.id}}</h3>
+</div>
+
+ -->
+<div *ngFor="let state of states" (click)="goToDetailPage(state)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{state.name}}</em> by {{state.id}}</h3>
+  </div>
+</div>

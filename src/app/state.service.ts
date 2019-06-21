@@ -6,8 +6,8 @@ export class StateService {
 
   constructor() { }
 
-  getStates() {
-    return STATES;
-  }
+  // getStates() {
+  //   return STATES;
+  // }
 
 }

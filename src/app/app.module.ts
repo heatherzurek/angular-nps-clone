@@ -13,6 +13,7 @@ import { FeaturedArticlesComponent } from './featured-articles/featured-articles
 import { ArticlesComponent } from './articles/articles.component';
 import { SiteLinksComponent } from './site-links/site-links.component';
 import { VisitComponent } from './visit/visit.component';
+import { VisitDetailComponent } from './visit-detail/visit-detail.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     FeaturedArticlesComponent,
     ArticlesComponent,
     SiteLinksComponent,
-    VisitComponent
+    VisitComponent,
+    VisitDetailComponent
   ],
   imports: [
     BrowserModule,
