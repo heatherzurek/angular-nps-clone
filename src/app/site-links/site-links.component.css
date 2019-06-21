@@ -1,5 +1,5 @@
 .mainContent {
-  background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+  background-image: url("/../../assets/img/site-links-img.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,11 +15,6 @@ h2 {
 }
 
 .btn-light {
-  background-image: url("https://static.thenounproject.com/png/204712-200.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 28%;
   border: 1px solid white;
   background-color: #4b5e26;
   color: white;

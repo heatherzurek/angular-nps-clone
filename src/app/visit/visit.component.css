@@ -1,8 +1,15 @@
 .visitNPS {
+  padding: 20px;
   margin: 0 auto;
   width: 50%;
 }
 
 h3 {
   font-size: 17px;
+}
+
+h4 {
+  width: 247px;
+  background-color: #000000;;
+  color: #FFFFFF;
 }

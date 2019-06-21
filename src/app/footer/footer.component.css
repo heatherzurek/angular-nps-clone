@@ -1,0 +1,26 @@
+.footer {
+  /* left: 300px;
+  bottom: 0; */
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  /* margin: 0 auto; */
+}
+
+hr {
+  background-color: grey;
+  width: 95%;
+}
+
+p {
+  margin: 0 auto;
+}
+
+.branding {
+  padding-left: 60%;
+}

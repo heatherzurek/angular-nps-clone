@@ -14,6 +14,7 @@ import { ArticlesComponent } from './articles/articles.component';
 import { SiteLinksComponent } from './site-links/site-links.component';
 import { VisitComponent } from './visit/visit.component';
 import { VisitDetailComponent } from './visit-detail/visit-detail.component';
+import { FooterComponent } from './footer/footer.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -31,7 +32,8 @@ export const firebaseConfig = {
     ArticlesComponent,
     SiteLinksComponent,
     VisitComponent,
-    VisitDetailComponent
+    VisitDetailComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
