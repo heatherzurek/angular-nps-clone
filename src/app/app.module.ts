@@ -9,7 +9,6 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainComponent } from './main/main.component';
-import { SearchBarComponent } from './search-bar/search-bar.component';
 import { FeaturedArticlesComponent } from './featured-articles/featured-articles.component';
 import { ArticlesComponent } from './articles/articles.component';
 import { SiteLinksComponent } from './site-links/site-links.component';
@@ -27,7 +26,6 @@ export const firebaseConfig = {
     AppComponent,
     NavBarComponent,
     MainComponent,
-    SearchBarComponent,
     FeaturedArticlesComponent,
     ArticlesComponent,
     SiteLinksComponent,
