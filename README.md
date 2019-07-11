@@ -1,5 +1,5 @@
 # _National Park Service Clone_
-
+![website view](npscloness.png)
 ## _This is an application that clones the national parks website using Angular and typescript._
 
 #### By _**Heather Zurek**_
