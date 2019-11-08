@@ -41,3 +41,13 @@ img {
 /* .form-control mr-sm-2 {
   color: #FFFFFF!important;
 } */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar {
+      width: 100vh;
+    }
+}
+

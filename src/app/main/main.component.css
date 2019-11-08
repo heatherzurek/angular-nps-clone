@@ -58,3 +58,35 @@ h1 {
   font-family: sans-serif;
   font-size: 50px;
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .mainContent {
+      width: 100vh;
+    }
+    .mainBox {
+      background-color: #1010108c!important;
+        color: #FFFFFF;
+        width: 300px;
+        height: 190px;
+        position: relative;
+        top: 100px;
+        left: 45%;
+        padding: 15px;
+      }
+      .searchBar {
+        width: 100%;
+        margin-top: 30%;
+        background-color: #1010108c!important;
+        color: #FFFFFF;
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+      }
+      h1 {
+        font-family: sans-serif;
+        font-size: 30px;
+      }
+}
